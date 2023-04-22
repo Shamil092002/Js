@@ -1,21 +1,33 @@
-let name = prompt('Enter the name of product');
-let unitPrice = prompt('Enter the unit price');
-let quantity = prompt('Enter the quantity');
-let participation = prompt('Is product participate in the promotion');
+// const productName = prompt('Enter the product name')
+// const products = [{
+//     name: 'table',
+//     unitPrice: 100,
+//     quantity: 8,
+//     participation: true,
+// }, {
+//     name: 'bag',
+//     unitPrice: 20,
+//     quantity: 4,
+//     participation: false,
+// }, {
+//     name: 'sofa',
+//     unitPrice: 200,
+//     quantity: 6,
+//     participation: false,
+// }
+// ]
 
-function costOfProduct() {
-    if (quantity >= 5) {
-        alert('10% discount : ' + (unitPrice = unitPrice - unitPrice * 0.1))
-    }
-    if (participation == 1) {
-        alert('15% discount : ' + (unitPrice = unitPrice - unitPrice * 0.15))
-    }
-    if (quantity >= 5 && participation == 1) {
-        alert('25% discount : ' + (unitPrice = unitPrice - unitPrice * 0.25))
-    }
-    for(i = 0; i <= quantity; i++){
-        unitPrice = unitPrice * i;
-        console.log(i);
-    }
-}
-costOfProduct()
+// function discount(productName) {
+//     for (const productName of products) {
+//         if (productName.quantity >= 5) {
+//             console.log('You receive a 10% discount')
+//         }
+//         else if (productName.participation == true) {
+//              console.log('You receive a 15% discount')
+//         }
+//     }
+//     return productName;
+// }
+
+// amountOfDiscount = discount(productName);
+// console.log(amountOfDiscount);

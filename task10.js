@@ -1,15 +1,12 @@
-// let a = +prompt('Enter the initial amount');
-// let b = +prompt('Enter the duration in years');
-// let c = +prompt('Enter the percent per year');
-// let z = a * c / 100;
-// let i = 0;
-
-// function amountOfDeposit() {
-//     do {
-//         i = a + z
-        
-//     }
-//     while (i < b);
+// let firstAmount = +prompt('Enter the deposit');
+// let howManyYears = +prompt('Enter the year');
+// let percentOfAmount = +prompt('Enter the percent');
+// let calculate = percentOfAmount/100;
+// function amountOfDeposit(firstAmount,howManyYears) {
+//   for(let i = 0; i < howManyYears; i++){
+//       firstAmount += firstAmount * calculate;
+//   }
+//   return firstAmount;
 // }
-// amount = amountOfDeposit();
+// amount = amountOfDeposit(firstAmount,howManyYears);
 // console.log(amount);

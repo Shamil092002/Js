@@ -2,7 +2,7 @@
 // const b = +prompt('The second temperature');
 // const c = +prompt('The third temperature');
 
-// function order() {
+// function order(a,b,c) {
 //     if (a > b && a > c && b > c) {
 //         console.log(a)
 //         console.log(b)
@@ -28,6 +28,7 @@
 //         console.log(a)
 //         console.log(b)
 //     }
+//     return 'All is ok';
 // }
-// let newOrder = order();
+// let newOrder = order(a,b,c);
 // console.log(newOrder);

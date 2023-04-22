@@ -1,10 +1,19 @@
-// task 1
+// const firstName = prompt('Enter your first name');
+// const lastName = prompt('Enter your last name');
+// const email = prompt('Enter your email address');
 
-// let firstName = prompt('Enter your first name');
-// let lastName = prompt('Enter your last name');
-// let email = prompt('Enter your email address');
-
-// function result() {
-//     alert('*' + email + '*  ' + '*' + lastName + '*  ' + '*' + firstName + '*');
+/*---function declaration--- */
+//  function result(firstName, lastName, email) {
+//     return email + " " + lastName + " " + firstName;
 // }
-// result();
+// const finalResult = result(firstName, lastName, email);
+// console.log(finalResult);
+
+
+
+
+/*---arrow function--- */
+// const result = (firstName, lastName, email) => email + " " + lastName + " " + firstName;
+
+// const finalResult = result(firstName, lastName, email);
+// console.log(finalResult);

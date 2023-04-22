@@ -3,10 +3,10 @@
 // let numberOfOrders = +prompt('Enter the number of your orders');
 // let amount = +prompt('Enter the amount of orders');
 
-// function discount() {
+// function discount(name,age,numberOfOrders,amount) {
 //     if(age > 60 || (numberOfOrders >= 4 && amount >=100)) {
 //         alert('You are offered a discount');
 //     }
-//     return alert(name + ' ' + age + ' ' + numberOfOrders + ' ' + amount);
+//     return name + ' ' + age + ' ' + numberOfOrders + ' ' + amount;
 // }
-// discount();
+// console.log(discount(name,age,numberOfOrders,amount));

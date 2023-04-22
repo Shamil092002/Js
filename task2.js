@@ -1,7 +1,7 @@
 // let a = prompt('Enter the distance');
-// let b = 0.25 * a + 5;
 
-// function result() {
-//     alert('Total cost is :' + b);
+// function result(a) {
+//    return 0.25 * a + 5;
 // }
-// result();
+// const finalResult = result(a);
+// console.log(finalResult);

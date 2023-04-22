@@ -5,17 +5,18 @@
 // let weight = +prompt('Enter the weight');
 // let distance = +prompt('Enter the distance');
 
-// function shipment() {
+// function shipment(length,width,height,sum,weight,distance) {
 //     if(sum > 150) {
-//         alert("Sum of measurements exceeds 150cm. We can't deliver it.")
+//         return "Sum of measurements exceeds 150cm. We can't deliver it."
 //     } else if(length > 100 || width > 100 || height > 100) {
-//         alert("Measurements should not exceed 100cm. We can't deliver it.")
+//         return "Measurements should not exceed 100cm. We can't deliver it."
 //     } else if(weight > 10) {
-//         alert("Weight should not exceed 10kg. We can't deliver it.")
+//         return "Weight should not exceed 10kg. We can't deliver it."
 //     } else if(distance < 3 || distance > 10) {
-//         alert('The distance should be in range of 3 km to 10km')
+//         return 'The distance should be in range of 3 km to 10km'
 //     } else {
-//         alert('All conditions are correct')
+//         return 'All conditions are correct'
 //     }
 // }
-// shipment();
+// const result = shipment(length,width,height,sum,weight,distance);
+// console.log(result);
